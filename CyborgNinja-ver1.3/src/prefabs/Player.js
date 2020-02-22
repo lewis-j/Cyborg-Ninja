@@ -1,5 +1,6 @@
 export default class Player extends Phaser.Sprite {
     
+    
     constructor(game, x, y, bullets, rockets, fuelUI, healthUI, lifeUI ) {
         super(game, x, y, 'ninja', 0);
         this.jetpackSpeed = 50;

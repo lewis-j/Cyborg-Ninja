@@ -44,7 +44,7 @@ module.exports = function(grunt) {
         grunt.loadNpmTasks('grunt-browserify');
         grunt.loadNpmTasks('main-bower-files');
         
-        grunt.registerTask('default', ['bower', 'connect', 'watch']);
+        grunt.registerTask('default', ['connect', 'watch']);
     
     
     
